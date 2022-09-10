@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+    import: 'optional:configserver:http://localhost:9691'
+     enabled: true
+#      uri:
+#        - http://localhost:9691
